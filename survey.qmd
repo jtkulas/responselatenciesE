@@ -231,15 +231,6 @@ sd_next()
 
 ::: {#edpractice1 .sd-page}
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    let neutralOption = document.querySelector('input[value="Neutral"]');
-    if (neutralOption) {
-      neutralOption.checked = true; // Pre-select Neutral
-    }
-  });
-</script>
-
 ## **Readily overcome setbacks.**
 
 How desirable is this characteristic?
@@ -1280,15 +1271,6 @@ sd_next("kunpractice1")
 
 ::: {#kunpractice1 .sd-page}
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    let neutralOption = document.querySelector('input[value="Neutral"]');
-    if (neutralOption) {
-      neutralOption.checked = true; // Pre-select Neutral
-    }
-  });
-</script>
-
 ## **Readily overcome setbacks.**
 
 ```{r}
@@ -1453,7 +1435,7 @@ sd_next()
 ```{r}
 sd_question(
   type  = 'matrix',
-  id    = 'prac1_EH',
+  id    = 'prac2_EH',
   label = "How desirable is it to be **Extremely High** in this characteristic? (**top 1%**)",
   row="", option = c(
     'Very Undesirable'    = '1',
@@ -1480,7 +1462,7 @@ sd_next()
 ```{r}
 sd_question(
   type  = 'matrix',
-  id    = 'prac1_AA',
+  id    = 'prac2_AA',
   label = "How desirable is it to be **Above Average** in this characteristic? (**top 30%**)",
   row="", option = c(
     'Very Undesirable'    = '1',
@@ -1507,7 +1489,7 @@ sd_next()
 ```{r}
 sd_question(
   type  = 'matrix',
-  id    = 'prac1_A',
+  id    = 'prac2_A',
   label = "How desirable is it to be **Average** in this characteristic?",
   row="", option = c(
     'Very Undesirable'    = '1',
@@ -1535,7 +1517,7 @@ sd_next()
 ```{r}
 sd_question(
   type  = 'matrix',
-  id    = 'prac1_BA',
+  id    = 'prac2_BA',
   label = "How desirable is it to be **Below Average** in this characteristic? (**bottom 30%**)",
   row="", option = c(
     'Very Undesirable'    = '1',
@@ -1563,7 +1545,7 @@ sd_next()
 ```{r}
 sd_question(
   type  = 'matrix',
-  id    = 'prac1_EL',
+  id    = 'prac2_EL',
   label = "How desirable is it to be **Extremely Low** in this characteristic? (**bottom 1%**)",
   row="", option = c(
     'Very Undesirable'    = '1',
